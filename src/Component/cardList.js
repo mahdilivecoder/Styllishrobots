@@ -9,8 +9,8 @@ class cardList extends Component{
     }
     render(){
         //const {robots}=this.props;
-        if(true)
-        throw new Error("OOOPS!");
+        // if(true)
+        // throw new Error("OOOPS!");
 //making our robofirends in cardlist 
         const robofriends=this.props.robots.map((user,i)=>{
            
