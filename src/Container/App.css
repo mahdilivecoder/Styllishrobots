@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.hC{
+  color:#61dafb;
+  background-color: pink;
+  min-width: 600px;
+  min-height: 100px;
+  width:800px;
+  height:250px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.robo-name{
+  color:cadetblue;
+  font-size: medium;
+  font-style: oblique;
+  word-spacing: 5%;
+  padding:1%;
+}
+.robo-username{
+  color:coral;
+  font-size: large;
+  font-style: bold;
+  padding:1%;
+}
+.robo-email{
+  color:cyan;
+  font-size:larger;
+  font-weight: 100 bold;
+  padding:1%;
+}
+.base-robo-grid{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  background-image:linear-gradient(to right,#1b7a94,#113f9c);
+  background-color:rgba(237, 78, 105,0.15);
+  padding:0px auto;
+  place-items: stretch;
+  
+}
+.robo-grid{
+  background-color:rgba(237, 78, 105,0.15);
+  border:1px solid #282c34;
+  padding:5px;
+  text-align:center;
+  overflow-y: hidden;
+  
+}
+.searchBox{
+  background-color: rgba(84, 108, 209, 0.9);
+  text-align: center;
+  display: grid;
+  place-items: center;
+  border:1px solid #506de6 !important;
+  width: 30%;
+  height: 100px;
+  box-shadow: 2px 2px 2px 2px #3353d6;
+  padding:5px;
+  margin: 0 auto;
+  margin-bottom: 0.5% !important;
+ 
+}
+ .searchbox-space{
+  padding: 10px;
+}
+.searchbox-space h1{
+  text-align: center;
+  color:rgba(223, 41, 132, 0.9);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  word-spacing: 10px;
+  font-size:xxx-large;
+  margin: 0 auto;
+  padding-bottom:10px;
+}
+body{
+  background-image: linear-gradient(to right,#657bd6,#2018ad);
+}
